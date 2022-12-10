@@ -34,7 +34,7 @@ export default function TextBox(props) {
         </div>
         <div className="container my-3">
         <h3>Your text summary</h3>
-        <p>{text.split("").length} words and {text.length} characters</p>
+        <p>{text.split(" ").length} words and {text.length} characters</p>
         <p>{0.008* text.split("").length} minutes to read</p>
         <h2>Preview</h2>
         <p>{text}</p>
